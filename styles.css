@@ -1,0 +1,61 @@
+.authors_outter_div {
+    display: flex;
+    width: 100%;
+    overflow-x: scroll;
+}
+
+#card__contain {
+    display: flex;
+    width: fit-content;
+}
+
+#books {
+    margin: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.custom_card {
+    width: 300px;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+    margin: 5px;
+}
+
+.author_card {
+    border: 1px #f79f03 solid;
+}
+
+.book_card {
+    border: 1px teal solid;
+}
+
+.avatar {
+    border-radius: 50%;
+    width: 100px;
+    border: 1px red solid;
+}
+
+.author_info_container {
+    width: 100%;
+    margin: 15px;
+}
+
+.author_name {
+    font-weight: bold;
+    font-size: larger;
+}
+
+.author_bio {
+    font-style: italic
+}
+
+#alert {
+    margin-top: 15px;
+}
